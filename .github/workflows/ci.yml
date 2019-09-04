@@ -13,4 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Run a one-line script
-      run: ./gradlew clean build
+      run: |
+        gradle wrapper
+        ./gradlew clean build
