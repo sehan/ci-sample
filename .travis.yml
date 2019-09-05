@@ -1,6 +1,0 @@
-language: kotlin
-jdk:
-  - oraclejdk8
-script:
-  - gradle wrapper
-  - ./gradlew clean build
